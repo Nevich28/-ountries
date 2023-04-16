@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 import { Button } from '../components/Button';
 import { Info } from '../components/Info';
 import { loadCountryByName, clearDetails } from '../store/details/details-actions';
-import { selectCurrentCountry, selectDetails } from '../store/details/details-selector';
+import { selectDetails } from '../store/details/details-selector';
 
 
 export const Details = () => {
